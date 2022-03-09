@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TCC.Backend.Application\TCC.Backend.Application.csproj" />
+    <ProjectReference Include="..\TCC.Backend.Domain\TCC.Backend.Domain.csproj" />
+    <ProjectReference Include="..\TCC.Backend.Infrastructure\TCC.Backend.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
