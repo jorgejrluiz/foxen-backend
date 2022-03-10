@@ -8,4 +8,8 @@
     <ProjectReference Include="..\TCC.Backend.Domain.Core\TCC.Backend.Domain.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
 </Project>

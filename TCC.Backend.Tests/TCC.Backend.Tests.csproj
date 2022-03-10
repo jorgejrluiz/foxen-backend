@@ -22,4 +22,9 @@
     <ProjectReference Include="..\TCC.Backend.Infrastructure\TCC.Backend.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Mocks\" />
+  </ItemGroup>
+
 </Project>

@@ -12,4 +12,9 @@
     <ProjectReference Include="..\TCC.Backend.Domain\TCC.Backend.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DbModels\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

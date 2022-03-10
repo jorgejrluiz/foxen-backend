@@ -10,7 +10,6 @@ namespace TCC.Backend.Tests.Fixtures
         {
             var config = new MapperConfiguration(opts =>
             {
-                opts.AddProfile(new Application.Mapping.ClienteMap());
             });
 
             Mapper = config.CreateMapper();
